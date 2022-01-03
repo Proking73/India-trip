@@ -1,0 +1,83 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body, html {
+  margin:0;
+  height:100%;
+}
+.parallax {
+  opacity:0.85;
+  position:relative;
+  height:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.india:active {
+  color:darkred;
+}
+
+.india {
+  filter:brightness(0.75);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:monospace;
+  text-decoration:none;
+  color:black;
+  background-image:url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png");
+}
+.india::after {
+  font-size:2em;
+  font-weight:bold;
+  content:"The India Trip (1 month)";
+  padding:1vw;
+  width:fit-content;
+  background:darkorange;
+}
+
+
+.parallax-2 {
+  background-image:url("https://cdn.theculturetrip.com/wp-content/uploads/2018/02/feature-image-v1-1.jpg");
+}
+
+.parallax-3 {
+  background-image:url("https://static.toiimg.com/photo/msid-59124559,width-96,height-65.cms");
+}
+
+.parallax-4 {
+  background-image:url("https://hindi.cdn.zeenews.com/hindi/sites/default/files/styles/zm_700x400/public/2021/08/11/895082-kanch-mandir.jpg?itok=APXUeNj0t");
+}
+
+.info {
+  text-indent:4%;
+  color:darkorange;
+  font-weight:bold;
+  font-family:arial;
+  position:absolute;
+  bottom:0%;
+  padding:3%;
+  width:100%;
+  background:#212121;
+}
+
+.info-india {
+  top:0;
+  height:fit-content;
+}
+
+.upArrow {
+  color:orange;
+  font-size:1.5em;
+}
+
+/* For mobile and smaller devices (off effect) */
+@media only screen and (max-device-width: 700) {
+  body {
+    background-attachment:scroll;
+  }
+}
