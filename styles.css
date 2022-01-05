@@ -1,4 +1,4 @@
-::selection {
+`::selection {
   background:hsla(0 50% 50% / 0.4);
 }
 * {
@@ -57,7 +57,7 @@ a:active {
 }
 
 .parallax-3 {
-  background-image:url("https://static.toiimg.com/photo/msid-59124559,width-96,height-65.cms");
+  background-image:url("");
 }
 
 .parallax-4 {
