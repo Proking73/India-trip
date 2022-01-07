@@ -57,7 +57,8 @@ a:active {
 }
 
 .parallax-3 {
-  background-size:95% 100%;
+  background-color:burlywood;
+  background-size:100%;
   background-image:url("Sai-temple.png");
 }
 
