@@ -57,7 +57,7 @@ a:active {
 }
 
 .parallax-3 {
-  background-color:burlywood;
+  background-color:rgb(93, 68, 34);
   background-size:100%;
   background-image:url("Sai-temple.png");
 }
@@ -92,12 +92,13 @@ a:active {
   right:0;
   height:100%;
   padding:0;
+  line-height: 110%;
   width:0;
   overflow-x:clip;
   overflow-y:scroll;
 }
 
-.upArrow, .leftArrow {
+.Arrow {
   color:orange;
   font-size:0.75em;
 }
