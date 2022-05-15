@@ -7,7 +7,7 @@ slideC.addEventListener('click', () => {
 if (check === "in") {
   slideC.style.transform = "rotate(180deg)";
   slideC.style.right = "30%";
-  infoTC.style.width = "30%";
+  infoTC.style.width = "25%";
   infoTC.style.padding = "3%";
   check = "out"
   console.log("out")
